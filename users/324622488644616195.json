@@ -1,5 +1,5 @@
 {
-    "dev": true,
+    "roles": [ "dev" ],
     "custom": [
         {
             "url": "https://cdn.discordapp.com/emojis/859801776232202280.png?size=48",
