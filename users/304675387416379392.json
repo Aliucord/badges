@@ -1,3 +1,9 @@
 {
-    "roles": [ "donor" ]
+    "roles": [ "donor" ],
+    "custom": [
+        {
+            "url": "https://cdn.discordapp.com/emojis/927592413663461447.gif",
+            "text": "trolley"
+        }
+    ]
 }
