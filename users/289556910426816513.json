@@ -1,3 +1,9 @@
 {
-    "roles": [ "contributor", "donor" ]
+    "roles": [ "contributor", "donor" ],
+    "custom": [
+        {
+            "url": "https://cdn.discordapp.com/emojis/896224889692913736.webp",
+            "text": "minky"
+        }
+    ]
 }
