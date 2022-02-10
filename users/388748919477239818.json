@@ -1,3 +1,9 @@
 {
-    "roles": [ "donor" ]
+    "roles": [ "donor" ],
+    "custom": [
+        {
+            "url": "https://cdn.discordapp.com/attachments/924443251245736017/941406984316518440/result.png",
+            "text": "never gonna give you up"
+        }
+    ]
 }
