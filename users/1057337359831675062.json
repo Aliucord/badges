@@ -1,0 +1,9 @@
+{
+    "roles": [ "donor" ],
+    "custom": [
+        {
+            "url": "https://cdn.discordapp.com/emojis/1138517861132931216.webp?size=256&quality=lossless",
+            "text": "Hell-Raiser"
+        }
+    ]
+}
