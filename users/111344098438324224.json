@@ -1,0 +1,9 @@
+{
+    "roles": [ "donor" ],
+    "custom": [
+        {
+            "url": "https://cdn.discordapp.com/emojis/1005484161265582110.webp?size=256&quality=lossless",
+            "text": "shy"
+        }
+    ]
+}
