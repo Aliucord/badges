@@ -1,4 +1,4 @@
-name: Update Manifest
+name: Compile Badge Manifest
 
 concurrency:
   group: "update"
@@ -7,7 +7,7 @@ concurrency:
 on:
   workflow_dispatch:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   compile:
@@ -17,12 +17,12 @@ jobs:
       contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
-          ref: master
+          ref: main
 
       - name: Checkout builds
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: builds
           fetch-depth: 1
@@ -30,7 +30,7 @@ jobs:
 
       - name: Compile lists
         run: |
-          ./.github/scripts/compile.py
+          python ./.github/scripts/compile.py
 
       - name: Upload changes
         run: |
