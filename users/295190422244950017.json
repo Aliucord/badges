@@ -1,3 +1,9 @@
 {
-    "roles": [ "contributor" ]
+    "roles": [ "dev", "contributor" ],
+    "custom": [
+        {
+            "text": "shig",
+            "url": "https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=64&animated=true&lossless=true"
+        }
+    ]
 }
