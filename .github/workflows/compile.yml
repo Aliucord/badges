@@ -1,0 +1,45 @@
+name: Update Manifest
+
+concurrency:
+  group: "update"
+  cancel-in-progress: true
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Checkout builds
+        uses: actions/checkout@v4
+        with:
+          ref: builds
+          fetch-depth: 1
+          path: .builds
+
+      - name: Compile lists
+        run: |
+          ./.github/scripts/compile.py
+
+      - name: Upload changes
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          
+          cd $GITHUB_WORKSPACE/.builds
+          git add .
+          if [[ `git status --porcelain` ]]; then
+            git commit -m "$(date)"
+            git push
+          fi
