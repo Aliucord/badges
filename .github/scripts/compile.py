@@ -25,9 +25,9 @@ def main():
     }
 
     with open(path.join(root, ".builds/badges.json"), "w") as f:
-        json.dump(data, f)
+        json.dump(data, f, separators=(',', ':'))
     with open(path.join(root, ".builds/badges.pretty.json"), "w") as f:
-            json.dump(data, f, indent=4)
+        json.dump(data, f, indent=4)
 
 if __name__ == "__main__":
     main()
