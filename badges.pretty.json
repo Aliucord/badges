@@ -210,6 +210,17 @@
                 "donor"
             ]
         },
+        "1168283689147449510": {
+            "roles": [
+                "donor"
+            ],
+            "custom": [
+                {
+                    "url": "https://cdn.discordapp.com/attachments/1110194755641544755/1110241441847988244/badge_1.png",
+                    "text": "simp"
+                }
+            ]
+        },
         "610871801911705641": {
             "roles": [
                 "donor"
@@ -298,6 +309,11 @@
                     "url": "https://cdn.discordapp.com/emojis/859801776232202280.png?size=48",
                     "text": "blobcatcozy"
                 }
+            ]
+        },
+        "223537608041562113": {
+            "roles": [
+                "donor"
             ]
         },
         "1147394216322924616": {
@@ -569,17 +585,6 @@
                 {
                     "url": "https://cdn.discordapp.com/emojis/896224889692913736.webp",
                     "text": "minky"
-                }
-            ]
-        },
-        "326678476365234178": {
-            "roles": [
-                "donor"
-            ],
-            "custom": [
-                {
-                    "url": "https://cdn.discordapp.com/attachments/1110194755641544755/1110241441847988244/badge_1.png",
-                    "text": "simp"
                 }
             ]
         },
