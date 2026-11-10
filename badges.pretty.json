@@ -746,6 +746,16 @@
         "554071670143451176": {
             "roles": [
                 "donor"
+            ],
+            "custom": [
+                {
+                    "text": "bonkers",
+                    "url": "https://raw.githubusercontent.com/Aliucord/badges/main/assets/554071670143451176-1.gif"
+                },
+                {
+                    "text": "You don't deserve my love.",
+                    "url": "https://raw.githubusercontent.com/Aliucord/badges/main/assets/554071670143451176-2.jpg"
+                }
             ]
         },
         "584363189890711562": {
