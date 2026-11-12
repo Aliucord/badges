@@ -1,13 +1,13 @@
 {
     "roles": [ "donor" ],
     "custom": [
-    	{
-    		"text": "bonkers",
-    		"url": "https://raw.githubusercontent.com/Aliucord/badges/main/assets/554071670143451176-1.gif"
-    	},
-    	{
-    		"text": "You don't deserve my love.",
-    		"url": "https://raw.githubusercontent.com/Aliucord/badges/main/assets/554071670143451176-2.jpg"
-    	}
+        {
+            "text": "bonkers",
+            "url": "https://raw.githubusercontent.com/Aliucord/badges/main/assets/554071670143451176-2.gif"
+        },
+        {
+            "text": "You don't deserve my love.",
+            "url": "https://raw.githubusercontent.com/Aliucord/badges/main/assets/554071670143451176-1.jpg"
+        }
     ]
 }
